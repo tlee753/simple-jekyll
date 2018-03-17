@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>Simple Jekyll</h1>
+<p>This is a simple template to assist me in seting up Jekyll sites</p>
+
+{% for post in site.posts %}
+    <a href="{{ post.url }}">
+        <h2>{{ post.title }}</h2>
+    </a>
+{% endfor %}
+
